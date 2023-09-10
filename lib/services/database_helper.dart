@@ -48,3 +48,4 @@ class DatabaseHelper {
     return List.generate(maps.length, (index) => Note.fromJson(maps[index]));
   }
 }
+
